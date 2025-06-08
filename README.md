@@ -34,4 +34,4 @@ A simple React Todo app to help you manage your daily tasks quickly and efficien
 ---
 
 Feel free to contribute!  
-Made with ❤️ by Kira-DS
+Made with ❤️ by Dhanasekar
