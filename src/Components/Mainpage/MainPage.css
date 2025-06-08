@@ -1,0 +1,133 @@
+.mainContainer {
+  background-color: white;
+  height: calc(100vh - 30vh);
+  width: calc(100vw - 50vw);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainHeader {
+  border-radius: 20px;
+  width: 90%;
+
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #aed9fc;
+}
+
+.mainHeaderName {
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bolder;
+}
+
+.mainInputContainer {
+  background-color: #ebebeb;
+  width: 90%;
+
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.mainInput {
+  width: 90%;
+  height: 35px;
+  font-size: 14px;
+  outline: none;
+  border: none;
+  background-color: #ebebeb;
+  border-bottom: 1px solid rgb(177, 177, 177);
+  margin: 4px;
+}
+
+.mainInput:focus {
+  border-bottom: 2px solid rgb(177, 177, 177);
+}
+
+.mainInputButton {
+  width: 10%;
+  margin: 4px;
+  background-color: rgb(56, 136, 255);
+  color: white;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
+
+.mainInputButton:disabled {
+  display: none;
+  visibility: hidden;
+}
+
+.mainInputButton:hover {
+  background-color: rgb(32, 118, 246);
+}
+
+.maintaskContainer {
+  overflow-x: hidden;
+  width: 95%;
+  height: 55%;
+  overflow-y: scroll;
+}
+
+.mainListItems {
+  height: 50px;
+  margin: 2px;
+  width: 95%;
+}
+
+.mainTaskRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 8px;
+  border-bottom: 1px solid rgb(228, 228, 228);
+  margin-bottom: 10px;
+}
+
+.mainTaskNames {
+  width: 80%;
+  font-size: 20px;
+  color: #333;
+  margin: 4px;
+  padding: 4px;
+  overflow-wrap: break-word;
+}
+
+.mainDeleteButton {
+  width: 20%;
+  padding: 6px 10px;
+  background-color: crimson;
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.mainDeleteButton:hover {
+  background-color: darkred;
+}
+
+.footerLink {
+  color: #0077b5;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footerLink:hover {
+  text-decoration: underline;
+}
+
+footer {
+  margin: 10px;
+  opacity: 0.6;
+}
